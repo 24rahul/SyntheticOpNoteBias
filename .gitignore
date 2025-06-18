@@ -1,0 +1,97 @@
+# Synthetic Operative Notes - Git Ignore File
+
+# API Keys and Environment Files
+.env
+*.env
+api_keys.env
+1_Synthetic_Data_Generation/.env
+
+# Generated Data and Outputs
+1_Synthetic_Data_Generation/output/
+2_Bias_Analysis/output/
+3_Statistical_Analysis/output/
+4_Visualization_Reports/output/
+*/output/
+output/
+
+# Log Files
+*.log
+logs/
+1_Synthetic_Data_Generation/logs/
+*/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data Files (exclude large generated datasets)
+*.json
+!**/config/*.json
+!**/examples/*.json
+
+# Temporary Files
+*.tmp
+*.temp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Research Data (exclude actual generated notes)
+synthetic_notes_*.json
+metadata_*.json
+
+# Model Artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Statistics and Analysis Results
+results/
+analysis_cache/
+*.csv
+!**/examples/*.csv 

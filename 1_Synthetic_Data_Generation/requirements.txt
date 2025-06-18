@@ -1,0 +1,14 @@
+# Requirements for Synthetic Data Generation
+# All three models (GPT-4, Gemini, Grok) are required for comparative analysis
+
+# Core dependencies
+openai>=1.0.0
+python-dotenv>=1.0.0
+aiohttp>=3.8.0
+
+# Google Generative AI for Gemini
+google-generativeai>=0.3.0
+
+# Additional utilities
+requests>=2.28.0
+asyncio-throttle>=1.0.0 
