@@ -53,7 +53,7 @@ Follow the setup instructions in `1_Synthetic_Data_Generation/README.md`:
 - 🚧 **Statistical Analysis**: Planned
 - 🚧 **Visualization**: Planned
 
-## 🔬 Research Design
+## Research Design
 
 ### Demographic Distributions
 - **Race**: Equal 20% distribution (White, Black, Asian, Native American, Other)
@@ -122,7 +122,7 @@ Follow the setup instructions in `1_Synthetic_Data_Generation/README.md`:
 - Guidelines for fair AI deployment
 - Standards for bias monitoring in medical AI
 
-## 🛡Ethical Considerations
+## Ethical Considerations
 
 - **Synthetic data only**: No real patient information used
 - **Research purpose**: Generated content not for clinical use
